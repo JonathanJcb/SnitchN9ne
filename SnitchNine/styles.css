@@ -1,0 +1,107 @@
+/* Styles généraux de l'extension */
+body {
+  font-family: Arial, sans-serif;
+  width: 300px;
+  padding: 15px;
+  background-color: #ffffff;
+}
+
+h2, h3 {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.form-group {
+  margin-bottom: 10px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+input[type="file"], input[type="text"], select {
+  width: 100%;
+  padding: 5px;
+  box-sizing: border-box;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  background-color: #1DA1F2;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 14px;
+  border-radius: 4px;
+}
+
+button:hover {
+  background-color: #0d8ae0;
+}
+
+.error-message {
+  color: red;
+  margin-top: 10px;
+}
+
+.success-message {
+  color: green;
+  margin-top: 10px;
+}
+
+/* Styles pour la pastille de couleur sur Twitter */
+.snitch-nine-dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  display: inline-block;
+  margin-left: 5px;
+}
+
+/* Couleurs spécifiques */
+.snitch-nine-yellow {
+  background-color: yellow;
+}
+
+.snitch-nine-orange {
+  background-color: orange;
+}
+
+.snitch-nine-red {
+  background-color: red;
+}
+
+/* Styles pour le popup de filtre appliqué */
+.filter-popup {
+  background-color: #f0f0f0;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-top: 10px;
+  text-align: center;
+}
+
+/* Styles pour les pastilles de couleur sur Twitter */
+.snitch-nine-dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  display: inline-block;
+  margin-left: 5px;
+}
+
+.snitch-nine-yellow {
+  background-color: yellow;
+}
+
+.snitch-nine-orange {
+  background-color: orange;
+}
+
+.snitch-nine-red {
+  background-color: red;
+}
